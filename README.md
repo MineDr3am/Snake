@@ -3,7 +3,7 @@
 # Snake version "Nokia je te retrouve"
 
 ## Introduction
-Ce projet git est un projet mené par Théophile, Luiza et moi quand nous étions élève de terminal S. Il s'agit d'un projet Baccalauréat pour l'option Information Science du Numérique (ISN). Il fallait mener un projet sous Java avec les logiciels Processing. Nous avons décidé de créer un jeu Snake comme on peut retrouver dans le Nokia3310. Vous pouvez retrouver le projet java sous Processing [ici](#). Vous pouvez jouer sur [snake.hugolausenazpire.fr](http://snake.hugolausenazpire.fr)
+Ce projet git est un projet mené par Théophile, Luiza et moi quand nous étions élève de terminal S. Il s'agit d'un projet Baccalauréat pour l'option Information Science du Numérique (ISN). Il fallait mener un projet sous Java avec les logiciels Processing. Nous avons décidé de créer un jeu Snake comme on peut retrouver dans le Nokia3310. Vous pouvez retrouver le projet java sous Processing [ici](#). Vous pouvez jouer sur [http://46.101.102.214:8080](http://46.101.102.214:8080)
 
 ## Installation
 
