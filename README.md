@@ -11,9 +11,10 @@ Ce projet git est un projet mené par Théophile, Luiza et moi quand nous étion
 	- Score
 	- EndGame
 	- Move & Agrandissement
-- [ ] v2: Ajout d'un enregistrement de score:
+- [ ] v2: Deploy with docker-compose
+- [ ] v3: Ajout d'un enregistrement de score:
 	- SQLite
 	- Formulaire de pseudo
 	- Ladderboard
-- [ ] v3: Changement du Snake avec les images d'avant
-- [ ] v4: Ajout des musiques et EasterEgg
+- [ ] v4: Changement du Snake avec les images d'avant
+- [ ] v5: Ajout des musiques et EasterEgg
