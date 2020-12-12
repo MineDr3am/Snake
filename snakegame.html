@@ -26,21 +26,30 @@
   const snakeboard_ctx = snakeboard.getContext("2d");
 
   //define the snake
-  let snake = [ {x: 200, y: 200},
+  let snake = [
+  {x: 200, y: 200},
   {x: 190, y: 200},
   {x: 180, y: 200},
   {x: 170, y: 200},
-  {x: 160, y: 200},];
+  {x: 160, y: 200}
+  ];
+
+  let dx = 10;
+  let dy = 0;
 
   //Start the game
   main();
 
   function main() {
-    clearCanvas();
-    drawSnake();
+    setTimeout(function onTick() {
+      clear_board();
+      move_snake();
+      drawSnake();
+      main();
+    }, 100)
   }
 
-  function clearCanvas() {
+  function clear_board() {
     snakeboard_ctx.fillStyle = board_background;
     snakeboard_ctx.strokestyle = board_border;
     snakeboard_ctx.fillRect(0, 0, snakeboard.width, snakeboard.height);
@@ -58,6 +67,12 @@
   function drawSnake()
   {
     snake.forEach(drawSnakePart);
+  }
+
+  function move_snake() {
+    const head = {x: snake[0].x + dx, y: snake[0].y + dy};
+    snake.unshift(head);
+    snake.pop();
   }
 </script>
 </html>
